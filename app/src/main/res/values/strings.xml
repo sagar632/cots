@@ -1,0 +1,127 @@
+<resources>
+    <string name="app_name">COTS</string>
+    <string name="image_desc">COTS LOGO</string>
+    <string name="already_account">"  LOGIN"</string>
+    <string name="new_user">REGISTER</string>
+    <string name="title_activity_main3">Main3Activity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="email">ENTER YOUR EMAIL</string>
+    <string name="password">ENTER YOUR PASSWORD</string>
+    <string name="login">LOGIN</string>
+    <string name="forgotpassword">FORGOT YOUR PASSWORD</string>
+    <string name="constituent_campuses">Constituent Campuses</string>
+    <string name="paschimanchal_campus">    PASCHIMANCHAL CAMPUS</string>
+    <string name="thapathali_cammpus">THAPATHALI CAMMPUS</string>
+    <string name="pulchowk_campus">PULCHOWK CAMPUS</string>
+    <string name="purwanchal_campus">PURWANCHAL CAMPUS</string>
+    <string name="publish">PUBLISH</string>
+    <string name="read">READ</string>
+    <string name="add_post">ADD POST</string>
+    <string name="articles">ARTICLES</string>
+    <string name="blog">BLOG</string>
+    <string name="job_and_intern">JOB AND INTERN</string>
+    <string name="internship_offer">INTERNSHIP OFFER</string>
+    <string name="sign_out">SIGN OUT</string>
+    <string name="contact_us">CONTACT US</string>
+    <string name="feedback">FEEDBACK</string>
+    <string name="upcoming_events">UPCOMING EVENTS</string>
+    <string name="events_organized">EVENTS ORGANIZED</string>
+    <string name="events">EVENTS</string>
+    <string name="home">HOME</string>
+    <string name="noneed">Button</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_home">home</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="homeeeeeee">homeeeeeeeeeeeeeeeeeeee</string>
+    <string name="you_are_in_home_page">you are in home page</string>
+    <string name="thapathali_campus">THAPATHALI CAMPUS</string>
+    <string name="purwanchal_campus_page">PURWANCHAL CAMPUS PAGE</string>
+
+    <string name="read_articles">READ ARTICLES</string>
+    <string name="publish_articles">PUBLISH ARTICLES</string>
+    <string name="note">NOTES</string>
+    <string name="projects">PROJECTS</string>
+    <string name="major_projects">MAJOR PROJECTS</string>
+    <string name="minor_projects">MINOR PROJECTS</string>
+
+    <string name="about_us">ABOUT US</string>
+    <string name="aboutus">ABOUT US</string>
+    <string name="view_profile">view profile</string>
+    <string name="signout">sign out</string>
+    <string name="profile">profile</string>
+    <string name="user_name">USER NAME</string>
+    <string name="date">DATE</string>
+    <string name="post_desc">POST DESCRIPTION</string>
+    <string name="image_post">image post</string>
+    <string name="article_date">TextView</string>
+    <string name="publisher">publisher</string>
+    <string name="content">content</string>
+    <string name="enter_the_title">ENTER THE TITLE</string>
+    <string name="text_please">GO ON WRITING</string>
+    <string name="what_on_your_mind">What\'s on your mind</string>
+    <string name="post">POST</string>
+    <string name="give_your_opinion_for_fututre_improvement">GIVE YOUR OPINION FOR FUTUTRE IMPROVEMENT</string>
+    <string name="submit">SUBMIT</string>
+    <string name="registration_form">REGISTRATION FORM</string>
+    <string name="new_user_first_name">FIRST NAME</string>
+    <string name="new_user_last_name">LAST NAME</string>
+    <string name="enter_email">ENTER EMAIL</string>
+    <string name="college_roll_no">COLLEGE ROLL NO</string>
+    <string name="phone_number">PHONE NUMBER</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="name">NAME:</string>
+    <string name="roll_no">ROLL NO;</string>
+    <string name="phone">PHONE:</string>
+    <string name="email_id">EMAIL ID:</string>
+    <string name="PROFILE">Profile:</string>
+    <string name="edit_profile">EDIT PROFILE</string>
+    <string name="Profile">Profile</string>
+    <string name="changepassword">CHANGE PASSWORD</string>
+    <string name="SIGNOUT">SIGN OUT</string>
+    <string name="this_section_is_under_maintenance">THIS SECTION IS UNDER MAINTENANCE</string>
+    <string name="event_registeration">EVENT REGISTERATION</string>
+    <string name="event_title">Event Title</string>
+    <string name="event_objective">Event Objective</string>
+    <string name="article_title">web development</string>
+
+
+    <string name="event_date">Event Date(dd\mm\yyyy)</string>
+    <string name="event_time">Event Time(eg 2pm)</string>
+    <string name="targetted_faculty">Targetted_facuty(eg bct,bel)</string>
+    <string name="organized_by">Organized By</string>
+    <string name="about_trainer">About Trainer(optional)</string>
+    <string name="entry_fee">Entry Fee(0-1000)</string>
+    <string name="about_coordinator">Event Coordinator(name)</string>
+    <string name="event_sub_coordinator">Event Sub Coordinator(name)</string>
+    <string name="contact_number">Contact Number</string>
+    <string name="description">Event Description</string>
+    <string name="register">REGISTER</string>
+    <string name="duration_eg_3hror_2days">Duration(eg:3hours or 2days)</string>
+    <string name="event_venue">Event Venue</string>
+    <string name="evetime">Time</string>
+    <string name="duration1">Duration</string>
+    <string name="faculty1">Faculty</string>
+    <string name="venue1">Venue</string>
+    <string name="trainer">Trainer</string>
+    <string name="entrance_fee">Entrance Fee</string>
+    <string name="change_profile_pic">CHANGE PROFILE PICTURE</string>
+    <string name="view_profile_picture">VIEW PROFILE PICTURE</string>
+    <string name="already_havvvve_account">ALREADY REGISTERED?</string>
+    <string name="no_account_yet_create_one">No account yet? Create one</string>
+
+
+</resources>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group >
+        <item
+            android:id="@+id/nav_home"
+
+
+            android:title="@string/menu_home"
+
+            />
+
+    </group>
+   <item
+       android:title="@string/Profile"
+       android:visible="true">
+       <menu>
+           <item
+               android:id="@+id/view_profile"
+               android:title="VIEW PROFILE"
+               />
+
+           <item
+               android:id="@+id/changepassword"
+               android:title="CHANGE PASSWORD"
+               />
+       </menu>
+   </item>
+    <item
+        android:title="NOTICES"
+        android:visible="true">
+        <menu>
+            <item
+                android:id="@+id/eastern"
+                android:title="@string/purwanchal_campus" />
+            <item
+                android:id="@+id/paschimanchal"
+                android:title="@string/paschimanchal_campus" />
+
+            <item
+                android:id="@+id/pulchowk"
+                android:title="@string/pulchowk_campus" />
+            <item
+                android:id="@+id/thapathali"
+                android:title="@string/thapathali_cammpus" />
+        </menu>
+
+    </item>
+    <item android:title="@string/events">
+        <menu>
+            <item android:title="@string/upcoming_events"
+                android:id="@+id/upcoming_events"/>
+            <item android:title="@string/event_registeration"
+                android:id="@+id/event_registeration"/>
+
+        </menu>
+    </item>
+    <item android:title="@string/projects">
+        <menu>
+            <item android:title="@string/major_projects"
+                android:id="@+id/major_projects"/>
+
+
+            <item android:title="@string/minor_projects"
+                android:id="@+id/minor_projects"/>
+
+        </menu>
+
+
+    </item>
+    <item android:title="@string/articles">
+        <menu>
+            <item android:title="@string/publish"
+                android:id="@+id/publish"/>
+
+
+            <item android:title="@string/read"
+                android:id="@+id/read"/>
+
+        </menu>
+
+
+    </item>
+    <item android:title="@string/blog">
+        <menu>
+            <item android:title="@string/add_post"
+                android:id="@+id/post"/>
+
+
+
+
+        </menu>
+
+
+    </item>
+    <group>
+        <item android:title="@string/job_and_intern">
+
+            <menu>
+                <item android:title="@string/internship_offer"
+                    android:id="@+id/internship"/>
+
+            </menu>
+        </item></group>
+    <group>
+        <item android:title="@string/note"
+            android:id="@+id/notes"/>
+    </group>
+
+    <group>
+        <item android:title="@string/contact_us"
+            android:id="@+id/contact"/>
+    </group>
+    <group>
+        <item android:title="@string/aboutus"
+            android:id="@+id/about_us"/>
+    </group>
+
+    <group>
+        <item android:title="@string/feedback"
+            android:id="@+id/feedback"/>
+    </group>
+    <group>
+        <item android:title="@string/sign_out"
+            android:id="@+id/signout"/>
+    </group>
+
+</menu>
+
+
+
+
+

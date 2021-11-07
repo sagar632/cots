@@ -1,0 +1,4 @@
+#Sat Apr 10 10:54:48 NPT 2021
+base.0=C\:\\Users\\User\\Desktop\\cots-20200226T144645Z-001\\cots\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out
+path.0=classes.dex
+renamed.0=classes.dex

@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="8dp"
+            android:text="@string/event_registeration"
+            android:textAlignment="center"
+            android:textColor="#A03559"
+            android:textSize="30sp"
+            android:textStyle="normal|bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/imageButton3"
+            android:layout_width="0dp"
+            android:layout_height="250dp"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="60dp"
+            android:foregroundGravity="center_horizontal"
+            android:scaleType="fitCenter"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView3"
+            app:srcCompat="@drawable/already1" />
+
+
+        <EditText
+            android:id="@+id/event_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:ems="10"
+            android:hint="@string/event_title"
+            android:inputType="textLongMessage|textMultiLine|textPersonName|textCapSentences|textAutoComplete|textImeMultiLine|textCapWords|textCapCharacters"
+            android:maxLength="1000"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:textColorHint="#201418"
+            android:textSize="20sp"
+            android:textStyle="normal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton3" />
+
+
+        <EditText
+            android:id="@+id/event_objective"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:ems="10"
+            android:hint="@string/event_objective"
+            android:inputType="textLongMessage|textMultiLine|textPersonName|textImeMultiLine|textCapCharacters"
+            android:maxLength="1000"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:textColorHint="#201418"
+            android:textSize="20sp"
+            android:textStyle="normal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/event_title" />
+
+
+        <EditText
+            android:id="@+id/organizing"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:ems="10"
+            android:hint="@string/organized_by"
+            android:inputType="textPersonName"
+            android:maxLength="300"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:textColorHint="#201418"
+            android:textSize="20sp"
+            android:textStyle="normal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/event_objective" />
+
+
+        <EditText
+            android:id="@+id/event_date"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:ems="10"
+            android:hint="@string/event_date"
+            android:inputType="date"
+            android:maxLength="10"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:textColorHint="#201418"
+            android:textSize="20sp"
+            android:textStyle="normal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/targetted_faculty" />
+
+
+        <EditText
+            android:id="@+id/event_time"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:ems="10"
+            android:hint="@string/event_time"
+            android:inputType="textPersonName|time"
+            android:maxLength="8"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:textColorHint="#201418"
+            android:textSize="20sp"
+            android:textStyle="normal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/event_date" />
+
+
+        <EditText
+            android:id="@+id/duration"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:ems="10"
+            android:hint="@string/duration_eg_3hror_2days"
+            android:inputType="number|textPersonName"
+            android:maxLength="50"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:textColorHint="#201418"
+            android:textSize="20sp"
+            android:textStyle="normal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/event_time" />
+
+
+        <EditText
+            android:id="@+id/coordinator"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:ems="300"
+            android:hint="@string/about_coordinator"
+            android:inputType="textPersonName"
+            android:maxLength="1000"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:textColorHint="#201418"
+            android:textSize="20sp"
+            android:textStyle="normal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/trainer" />
+
+        <EditText
+            android:id="@+id/subcoor"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:ems="10"
+            android:hint="@string/event_sub_coordinator"
+            android:inputType="textPersonName"
+            android:maxLength="300"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:textColorHint="#201418"
+            android:textSize="20sp"
+            android:textStyle="normal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/coordinator" />
+
+
+        <EditText
+            android:id="@+id/eventt_contact"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:ems="10"
+            android:hint="@string/contact_number"
+            android:inputType="textPersonName|phone"
+            android:maxLength="300"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:textColorHint="#201418"
+            android:textSize="20sp"
+            android:textStyle="normal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/subcoor" />
+
+
+        <EditText
+            android:id="@+id/targetted_faculty"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:ems="10"
+            android:hint="@string/targetted_faculty"
+            android:inputType="textPersonName"
+            android:maxLength="300"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:textColorHint="#201418"
+            android:textSize="20sp"
+            android:textStyle="normal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/organizing" />
+
+
+        <EditText
+            android:id="@+id/place"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:ems="10"
+            android:hint="@string/event_venue"
+            android:inputType="textPersonName"
+            android:maxLength="100"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:textColorHint="#201418"
+            android:textSize="20sp"
+            android:textStyle="normal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/duration" />
+
+
+        <EditText
+            android:id="@+id/desription"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:ems="10"
+            android:hint="@string/description"
+            android:inputType="textMultiLine|textNoSuggestions|textPersonName|textAutoComplete|textImeMultiLine"
+            android:maxLength="1000"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:textColorHint="#201418"
+            android:textSize="20sp"
+            android:textStyle="normal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/entry-fee" />
+
+
+        <EditText
+            android:id="@+id/trainer"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:ems="10"
+            android:hint="@string/about_trainer"
+            android:inputType="textPersonName"
+            android:maxLength="500"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:textColorHint="#201418"
+            android:textSize="20sp"
+            android:textStyle="normal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/place" />
+
+
+        <EditText
+            android:id="@+id/entry-fee"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:ems="10"
+            android:hint="@string/entry_fee"
+            android:inputType="number|textPersonName"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:textColorHint="#201418"
+            android:textSize="20sp"
+            android:textStyle="normal"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/eventt_contact" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginBottom="50dp"
+            android:background="@drawable/button_layout"
+            android:text="@string/register"
+            android:textColor="#0F0C0D"
+
+            android:textSize="30sp"
+            android:textStyle="normal|bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/desription" />
+
+    </android.support.constraint.ConstraintLayout>
+
+
+</ScrollView>

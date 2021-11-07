@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+
+    android:background="#FFC2C0C0"
+    >
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FBFCFD">
+
+
+        <TextView
+
+            android:id="@+id/headingpart"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginBottom="8dp"
+            android:ems="10"
+            android:gravity="start|top"
+
+            android:hint="@string/enter_the_title"
+
+            android:maxLength="100"
+
+
+            android:maxLines="5"
+            android:padding="6dp"
+            android:shadowColor="#7D388A"
+            android:text="@string/give_your_opinion_for_fututre_improvement"
+            android:textAlignment="center"
+            android:textColor="#DF4211"
+            android:textColorHint="#332B2C"
+            android:textSize="22sp"
+            android:textStyle="normal|bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.086" />
+
+        <EditText
+
+
+            android:id="@+id/feedback"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+
+
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="8dp"
+            android:ems="10"
+            android:gravity="start|top"
+            android:hint="@string/text_please"
+
+            android:inputType="textLongMessage|textAutoCorrect|textMultiLine|textCapWords"
+            android:maxLength="1000"
+            android:maxLines="1000"
+            android:padding="6dp"
+            android:textColorHint="#332B2C"
+            android:textSize="22sp"
+            android:textStyle="normal|bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/headingpart"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="24dp"
+            android:background="@drawable/button_layout"
+            android:text="@string/submit"
+            android:textSize="24sp"
+            android:textStyle="normal|bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/feedback" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="0dp"
+            android:layout_height="110dp"
+            android:background="#FDFDFE"
+            app:layout_constraintBottom_toTopOf="@+id/headingpart"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/cotsl_logo" />
+    </android.support.constraint.ConstraintLayout>
+
+</ScrollView>
+
+
+
+

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="text_lengt_in_create">50</integer>
+    <integer name="college_roll_number_length">12</integer>
+</resources>
